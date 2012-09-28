@@ -1,5 +1,7 @@
 class CommentsController < ApplicationController
 
+	before_filter :require_login, :except => [:create]
+
 	def create
 		article_id = params[:comment].delete(:article_id)
 

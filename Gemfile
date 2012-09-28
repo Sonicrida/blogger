@@ -27,6 +27,10 @@ gem 'jquery-rails'
 
 gem "paperclip"
 
+gem "haml-rails"
+
+gem 'sorcery'
+
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
